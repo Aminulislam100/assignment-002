@@ -1,0 +1,569 @@
+/* navbar */
+.navbar{
+    display: flex;
+    gap: 186px;
+    align-items: center;
+    margin: 20px 140px 0 140px;
+}
+.school{
+    display: flex;
+    gap: 11px;
+}
+.school img{
+    width: 52px;
+    height: 58px;
+}
+.school h2{
+    font-weight: 800;
+}
+.links{
+    display: flex;
+    gap: 16px;
+}
+.links-item{
+    list-style: none;
+}
+.links-item a{
+    text-decoration: none;
+}
+.Home{
+    color: orange;
+}
+.About{
+    color: skyblue;
+}
+.Facilities{
+    color: rgba(5, 212, 223, 1);
+}
+.Admission{
+    color: rgba(93, 88, 239, 1);
+}
+.nav-btn button{
+    width: 150px;
+    height: 33px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/* banner */
+.banner{
+    margin-top: -40px;
+}
+.banner-dad{
+    display: flex;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+.banner-1{
+    width: 520px;
+    margin-top: 100px;
+    margin-right: 90px;
+}
+.banner-boy img{
+    width: 445px;
+    height: 555px;
+    margin-top: 50px;
+}
+.banner-heading{
+    font-size: 58px;
+}
+.Empowering{
+    color: orange;
+}
+.towards{
+    color: skyblue;
+}
+.banner-content{
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: -30px;
+}
+.banner-btn{
+    width: 169px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+}
+
+
+/* caricolumn */
+.caricolumn-heading{
+    text-align: center;
+    font-size: 35px;
+}
+.caricolumn-cards{
+    display: flex;
+justify-content: space-between;
+}
+.caricolumn{
+    width: 100%;
+    background: url(../B11-A2-Kids-School/assets/bg.png);
+}
+.caricolumn-dad{
+    padding: 60px 140px 80px 140px;
+}
+.card-img-1{
+    background: linear-gradient(180.00deg, rgba(222, 245, 255, 1) 2.884%,rgba(16, 16, 16, 0) 101.034%),
+    url(../B11-A2-Kids-School/assets/Capture.PNG)
+}
+.card-img-1{
+    padding-top: 52px;
+}
+.card-img-2{
+    background: linear-gradient(180.00deg, rgba(255, 244, 220, 1) 2.884%,rgba(16, 16, 16, 0) 101.034%),
+    url(../B11-A2-Kids-School/assets/Capture.PNG)
+}
+.card-img-2{
+    padding-top: 52px;
+}
+.card-img-3{
+    background: linear-gradient(180.00deg, rgba(242, 232, 255, 1) 2.884%,rgba(16, 16, 16, 0) 101.034%),
+    url(../B11-A2-Kids-School/assets/Capture.PNG)
+}
+.card-img-3{
+    padding-top: 52px;
+}
+.caricolumn-card-1{
+    width: 330px;
+    height: 420px;
+    border-radius: 12px;
+    border: 2px solid rgba(222, 245, 255, 1);
+    text-align: center;
+}
+.caricolumn-card-2{
+    width: 330px;
+    height: 420px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 244, 220, 1);
+    text-align: center;
+}
+.caricolumn-card-3{
+    width: 330px;
+    height: 420px;
+    border-radius: 12px;
+    border: 2px solid rgba(242, 232, 255, 1);
+    text-align: center;
+}
+.card-1-dad{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.card-2-dad{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.card-3-dad{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.card-heading h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+.card-content{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.card-1-read{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(100, 200, 255, 1);
+}
+.card-2-read{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(240, 170, 0, 1);
+}
+.card-3-read{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(135, 0, 255, 1);
+}
+
+
+/* golllll */
+.gol-dad{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.gol-1{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px;
+}
+.gol-1 h1{
+    margin-top: 15px;
+    font-weight: 900;
+    color: white;
+}
+.gol-2{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px;
+}
+.gol-2 h1{
+    margin-top: 15px;
+    font-weight: 900;
+    color: white;
+}
+/* storry */
+.story{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 1) 2.884%,rgba(16, 16, 16, 0) 101.034%),
+    url(../B11-A2-Kids-School/assets/bg.png)
+}
+.story-heading{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+}
+.big-img-btn button{
+    border-radius: 12px;
+    background-color: rgba(60, 216, 232, 1);
+    width: 158px;
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    box-shadow: 0 0 20px 0 black;
+    margin-left: 38px;
+}
+.big-img img{
+    margin-bottom: -30px;
+}
+.big-img{
+    background-color: white;
+    width: 540px;
+    height: 600px;
+    border-radius: 12px;
+}
+.big-img img{
+    border-radius: 12px 12px 0 0;
+}
+.big-img-heading h3{
+    font-size: 28px;
+}
+.big-img-content p{
+    font-size: 17px;
+    width: 433px;
+    color: gray;
+    margin-top: 50px;
+}
+.story-img-dad{
+    display: flex;
+    gap: 20px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+.img-1{
+    background-color: white;
+    width: 291px;
+    border-radius: 12px;
+}
+.img-2{
+    background-color: white;
+    width: 291px;
+    border-radius: 12px;
+}
+.img-3{
+    background-color: white;
+    width: 291px;
+    border-radius: 12px;
+}
+.img-4{
+    background-color: white;
+    width: 291px;
+    border-radius: 12px;
+}
+.img-1-btn button{
+    border-radius: 12px;
+    background-color: rgba(149, 178, 38, 1);
+    width: 140px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    margin-left: 38px;
+}
+.img-2-btn button{
+    border-radius: 12px;
+    background-color: rgba(93, 88, 240, 1);
+    width: 140px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    margin-left: 38px;
+}
+.img-3-btn button{
+    border-radius: 12px;
+    background-color: rgba(149, 178, 38, 1);
+    width: 140px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    margin-left: 38px;
+}
+.img-4-btn button{
+    border-radius: 12px;
+    background-color: rgba(149, 178, 38, 1);
+    width: 140px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    margin-left: 38px;
+}
+.img-1 img{
+    margin-bottom: -20px;
+    border-radius: 12px 12px 0 0 ;
+}
+.img-2 img{
+    margin-bottom: -20px;
+    border-radius: 12px 12px 0 0 ;
+}
+.img-3 img{
+    margin-bottom: -20px;
+    border-radius: 12px 12px 0 0 ;
+}
+.img-4 img{
+    margin-bottom: -20px;
+    border-radius: 12px 12px 0 0 ;
+}
+.img-1-content{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 37px;
+}
+.story-btn button{
+    background-color: black;
+    color: white;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+.story-dad{
+    margin-left: 140px;
+}
+.story-btn{
+    text-align: center;
+}
+
+
+
+/* footer */
+footer{
+    background-color: rgba(1, 172, 253, 1);
+    padding-top: 123px;
+    padding-left: 140px;
+    padding-bottom: 174px;
+    padding-right: 228px;
+    margin-top: 38px;
+}
+.img-foot-and-foot-head{
+    display: flex;
+}
+.foot-head h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.img-foot img{
+    width: 90px;
+    height: 108px;
+}
+.foot1-content{
+    width: 399px;
+    color: lightgray;
+    font-size: 20px;
+}
+.footer-dad{
+    display: flex;
+}
+.foot-2-head h6{
+    font-size: 24px;
+    margin-bottom: -20px;
+    color: white;
+    margin-left: 130px;
+    font-weight: 300;
+}
+.foot-list{
+    margin-top: 40px;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    margin-left: 95px;
+}
+.foot-3-head h5{
+    font-size: 26px;
+    color: white;
+}
+.foot-3{
+    margin-left: 132px;
+}
+.foot-3-logos{
+    display: flex;
+}
+
+
+
+/* media queri */
+
+@media screen and (max-width: 576px) {
+    .links,
+    .school h2,
+    .nav-btn{
+        display: none;
+    }
+    .navbar{
+        margin-left: 0;
+    }
+    header{
+        background: url(../B11-A2-Kids-School/assets/menu.png); margin-right: 10px; margin-top: 5px;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    .banner{
+        background: url(../B11-A2-Kids-School/assets/hr.png);
+        background-size: 576px;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    .banner-dad{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 16px;
+        text-align: center;
+    }
+    .banner-boy img{
+        margin-left: 50px;
+    }
+
+    .caricolumn-cards{
+        flex-direction: column;
+        margin-left: -10%;
+        gap: 12px;
+    }
+    .gol,
+    .big-img{
+        display: none;
+    }
+    .img-container{
+        margin-left: -126px;
+    }
+    .img-1{
+        width: 240px;
+        height: 246px;
+    }
+    .img-1 img{
+        width: 240px;
+    }
+    .img-1 button{
+        margin-left: 20px;
+        width: 133px;
+        height: 32px;
+        font-size: 10px;
+    }
+    .img-1-content{
+        font-size: 12px;
+    }
+    .img-2{
+        width: 240px;
+        height: 246px;
+    }
+    .img-2 img{
+        width: 240px;
+    }
+    .img-2 button{
+        margin-left: 20px;
+        width: 133px;
+        height: 32px;
+        font-size: 10px;
+    }
+    .img-2-content{
+        font-size: 12px;
+    }
+    .img-3{
+        width: 240px;
+        height: 246px;
+    }
+    .img-3 img{
+        width: 240px;
+    }
+    .img-3 button{
+        margin-left: 20px;
+        width: 133px;
+        height: 32px;
+        font-size: 10px;
+    }
+    .img-3-content{
+        font-size: 12px;
+    }
+    .img-4{
+        width: 240px;
+        height: 246px;
+    }
+    .img-4 img{
+        width: 240px;
+    }
+    .img-4 button{
+        margin-left: 20px;
+        width: 133px;
+        height: 32px;
+        font-size: 10px;
+    }
+    .img-4-content{
+        font-size: 12px;
+    }
+    .story-heading{
+        font-size: 30px;
+        margin-left: -140px;
+    }
+    .footer-dad{
+        flex-direction: column;
+    }
+    footer{
+        padding-left: 16px;
+    }
+    .foot-2-head h6{
+        margin-left: 0;
+    }
+    .foot-list{
+        margin-left: 0;
+    }
+    .foot-3{
+        margin-left: 0;
+    }
+    }
+}
